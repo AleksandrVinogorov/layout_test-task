@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Montserrat&display=swap');
 
 /* common */
+#root {
+  position: relative;
+  overflow: hidden;
+}
 body {
   background: var(--black, #0E1014);
   font-family: 'Inter', sans-serif;

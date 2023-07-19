@@ -106,10 +106,12 @@
 }
 
 .purple-light {
+
     z-index: -1;
     position: absolute;
     top: 0;
     overflow: hidden;
+    height: 100%;
 }
 
 .red-light {
@@ -132,15 +134,15 @@
 .red-ball {
     z-index: -1;
     position: absolute;
-    left: 35.5%;
-    top: 8%;
+    left: 33%;
+    top: 7.2%;
 }
 
 .purple-ball {
     z-index: -1;
     position: absolute;
     top: 0px;
-    right: 33.5%;
+    right: 31.5%;
 }
 
 .brown-ball {

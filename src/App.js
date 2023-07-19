@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <header className='header'>
+      <img className='purple-light' src={require("./img/purple light.png")} alt='ball'></img>
         <div className='header__wrapper'>
           <div className='header__left-side'>
             <figure className='header__logo'>
@@ -20,7 +21,6 @@ function App() {
               </ul>
             </nav>
           </div>
-          <img className='purple-light' src={require("./img/purple light.png")} alt='ball'></img>
           <img className='purple-ball' src={require("./img/purple ball.svg").default} alt='ball'></img>
           <div className="header__contacts">
             <p>+7 555 555-55-55</p>
