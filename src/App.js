@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <header className='header'>
-      <img className='purple-light' src={require("./img/purple light.png")} alt='ball'></img>
+        <img className='purple-light' src={require("./img/purple light.png")} alt='ball'></img>
         <div className='header__wrapper'>
           <div className='header__left-side'>
             <figure className='header__logo'>
@@ -39,6 +39,7 @@ function App() {
         </div>
       </header>
       <main className="main">
+        <img className='purple__ball-mobile' src={require("./img/purple ball-mobile.png")} alt='ball'></img>
         <img className='red-ball' src={require("./img/red ball.svg").default} alt='ball'></img>
         <section className='page'>
           <img className='red-light' src={require("./img/red light.png")} alt='ball'></img>
@@ -49,7 +50,6 @@ function App() {
             </div>
             <div className='page__info'>
               <img className='purple__light-mobile' src={require("./img/purple light-mobile.png")} alt='ball'></img>
-              <img className='purple__ball-mobile' src={require("./img/purple ball-mobile.png")} alt='ball'></img>
               <img className='red__light-mobile' src={require("./img/red light-mobile.png")} alt='ball'></img>
               <h2 className='page__info-title'>Вместе с <span>бесплатной консультацией</span> мы дарим:</h2>
               <div className='page__info-content'>

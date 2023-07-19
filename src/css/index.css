@@ -86,8 +86,8 @@
     display: block;
     position: absolute;
     right: 0;
-    margin-top: -24px;
     z-index: -1;
+    margin-top: 245px;
   }
   .red__light-mobile {
     display: block;
