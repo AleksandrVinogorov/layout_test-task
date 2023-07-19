@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Montserrat&display=swap");
 .header {
   padding-top: 57px;
-  position: relative;
   overflow: hidden;
   box-sizing: border-box;
 }
