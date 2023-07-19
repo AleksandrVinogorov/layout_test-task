@@ -1,0 +1,22 @@
+@import "header";
+@import "main";
+@import "footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Montserrat&display=swap');
+
+/* common */
+body {
+  background: var(--black, #0E1014);
+  font-family: 'Inter', sans-serif;
+  margin: 0px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
