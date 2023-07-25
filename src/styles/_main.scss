@@ -1,4 +1,12 @@
 /* main */
+
+    @media (max-width: 680px) {
+        .main {
+            position: relative;
+            padding-bottom: 55px;
+        }
+    }
+
 .page {
     padding-top: 94px;
     flex: 1 1 auto;
@@ -258,4 +266,8 @@
     @media (max-width: 720px) {
         display: none;
     }
+}
+.background {
+    position: absolute;
+    z-index: -10;
 }

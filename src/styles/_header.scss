@@ -90,17 +90,16 @@
     .red__light-mobile {
         display: block;
         position: absolute;
-        left: -55px;
-        width: 211px;
-        height: 210px;
+        width: 100%;
+        height: 100%;
         z-index: -1;
+        bottom: 0px;
     }
 
     .red__ball-mobile {
         display: block;
         position: absolute;
         z-index: -1;
-        top: -18%;
         left: 5%;
     }
 }
@@ -134,7 +133,7 @@
 .red-ball {
     z-index: -1;
     position: absolute;
-    left: 33%;
+    left: 36%;
     top: 7.2%;
 }
 
@@ -142,7 +141,7 @@
     z-index: -1;
     position: absolute;
     top: 0px;
-    right: 31.5%;
+    right: 35.5%;
 }
 
 .brown-ball {
