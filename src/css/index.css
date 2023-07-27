@@ -375,8 +375,6 @@
 }
 
 .page__info-title span {
-  background: var(--gradient, linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%));
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Inter";
@@ -386,17 +384,37 @@
   text-transform: uppercase;
 }
 
+.page__info-title :first-child {
+  background: #FCB146;
+  background: var(--gradient, linear-gradient(90deg, #FCB045 -18.01%, #FD1D1D 100%));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 720px) {
+  .page__info-title :first-child {
+    background: var(--gradient, linear-gradient(90deg, #FCB045 4.99%, #FD1D1D 160%));
+    -webkit-background-clip: text;
+            background-clip: text;
+  }
+}
+
+.page__info-title-consultation {
+  background: rgb(252, 177, 70);
+  background: linear-gradient(45deg, rgb(252, 177, 70) 38%, rgb(253, 108, 30) 100%);
+}
+@media (max-width: 720px) {
+  .page__info-title-consultation {
+    background: var(--gradient, linear-gradient(90deg, #FCB045 65.99%, #FD1D1D 160%));
+  }
+}
+
 @media (max-width: 720px) {
   .page__info-title span {
-    text-transform: none;
-    background: #FCB045;
-    background: linear-gradient(to bottom right, #FCB045 33%, #FD1D1D 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0px;
+    text-transform: lowercase;
   }
 }
 .page__info-content {

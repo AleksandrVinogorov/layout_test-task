@@ -50,7 +50,7 @@ function App() {
             </div>
             <div className='page__info'>
               <img className='purple__light-mobile' src={require("./img/purple light-mobile.png")} alt='ball'></img>
-              <h2 className='page__info-title'>Вместе с <span>бесплатной консультацией</span> мы дарим:</h2>
+              <h2 className='page__info-title'>Вместе с <span className='page__info-title-free'>бесплатной</span> <span className="page__info-title-consultation">консультацией</span> мы дарим:</h2>
               <div className='page__info-content'>
                 <div>
                   <p className='title'>Виджеты</p>
